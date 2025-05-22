@@ -431,57 +431,111 @@
 
 
         <!-- Certifications -->
-        <!-- ===== Certifications Section ===== -->
+ <!-- ===== Certifications Section ===== -->
 
-        <section id="Certifications" style="padding: 3rem 1rem;">
-            <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">Certifications</h2>
+ <section id="Certifications" style="padding: 3rem 1rem;">
+     <h2 style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">Certifications</h2>
 
-            <div class="certifications-grid">
-                <!-- Microsoft Excel Certificate -->
-                <a href="https://www.coursera.org/account/accomplishments/verify/5T0HCOY79BHQ" target="_blank" class="cert-card">
-                    <img src="Screenshot 2025-05-18 170102.png" />
-                    <div class="cert-content">
-                        <h3>Data for Business Analytics with Microsoft Excel</h3>
-                        <p>Microsoft — 2025</p>
-                    </div>
-                </a>
+     <div class="certifications-grid">
+         <!-- Microsoft Excel Certificate -->
+         <a href="https://www.coursera.org/account/accomplishments/verify/5T0HCOY79BHQ" target="_blank" class="cert-card">
+             <img src="Screenshot 2025-05-18 170102.png" alt="Microsoft Excel Analytics Certificate" />
+             <div class="cert-content">
+                 <h3>Data for Business Analytics with Microsoft Excel</h3>
+                 <p>Microsoft — 2025</p>
+             </div>
+         </a>
 
-                <!-- University of Michigan Python Certificate -->
-                <a href="https://www.coursera.org/account/accomplishments/verify/BE7DBEXCLV46?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" class="cert-card">
-                    <img src="CERTIFICATE_LANDING_PAGE~BE7DBEXCLV46.jpeg" alt="University of Michigan Python Certificate" />
-                    <div class="cert-content">
-                        <h3>Programming for Everybody (Python)</h3>
-                        <p>University of Michigan — 2021</p>
-                    </div>
-                </a>
-                <!-- Pega -->
-                <a href="https://accounts.pega.com/profile/PraveenReddyM16576612/share/BPEGAPCSA86V1-PEGAPCSA86V1" target="_blank" class="cert-card">
-                    <img src="Screenshot 2025-05-19 122758.png" alt="Microsoft Excel Analytics Certificate" />
-                    <div class="cert-content">
-                        <h3>Certified Pega System Architect</h3>
-                        <p>Pega — 2022</p>
-                    </div>
-                </a>
-                <!-- C# -->
-                <a href="https://www.udemy.com/certificate/UC-a1626d6d-a991-4d41-ad89-b6e4095cdb04/" target="_blank" class="cert-card">
-                    <img src="UC-a1626d6d-a991-4d41-ad89-b6e4095cdb04.jpg" alt="Microsoft Excel Analytics Certificate" />
-                    <div class="cert-content">
-                        <h3>Completion of Complete C# Masterclass</h3>
-                        <p>2025</p>
-                    </div>
-                </a>
-                <!-- Webdevelopment# -->
-                <a href="https://www.udemy.com/certificate/UC-5032ec5c-f571-49a3-a7db-e0ff1b40ccd6/ " target="_blank" class="cert-card">
-                    <img src="UC-5032ec5c-f571-49a3-a7db-e0ff1b40ccd6.jpg" alt="Microsoft Excel Analytics Certificate" />
-                    <div class="cert-content">
-                        <h3>Completion of Complete Web Development Masterclass</h3>
-                        <p>2025</p>
-                    </div>
-                </a>
-            </div>
-        </section>
+         <!-- University of Michigan Python Certificate -->
+         <a href="https://www.coursera.org/account/accomplishments/verify/BE7DBEXCLV46?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" class="cert-card">
+             <img src="CERTIFICATE_LANDING_PAGE~BE7DBEXCLV46.jpeg" alt="University of Michigan Python Certificate" />
+             <div class="cert-content">
+                 <h3>Programming for Everybody (Python)</h3>
+                 <p>University of Michigan — 2021</p>
+             </div>
+         </a>
+         <!-- Pega -->
+         <a href="https://accounts.pega.com/profile/PraveenReddyM16576612/share/BPEGAPCSA86V1-PEGAPCSA86V1" target="_blank" class="cert-card">
+             <img src="Screenshot 2025-05-19 122758.png" alt="Microsoft Excel Analytics Certificate" />
+             <div class="cert-content">
+                 <h3>Certified Pega System Architect</h3>
+                 <p>Pega — 2025</p>
+             </div>
+         </a>
+         <!-- C# -->
+         <a href="https://www.udemy.com/certificate/UC-a1626d6d-a991-4d41-ad89-b6e4095cdb04/" target="_blank" class="cert-card">
+             <img src="UC-a1626d6d-a991-4d41-ad89-b6e4095cdb04.jpg" alt="Microsoft Excel Analytics Certificate" />
+             <div class="cert-content">
+                 <h3>Completion of complete C# masterclass</h3>
+                 <p>2025</p>
+             </div>
+         </a>
+         <!-- Webdevelopment# -->
+         <a href="https://www.udemy.com/certificate/UC-5032ec5c-f571-49a3-a7db-e0ff1b40ccd6/ " target="_blank" class="cert-card">
+             <img src="UC-5032ec5c-f571-49a3-a7db-e0ff1b40ccd6.jpg" alt="Microsoft Excel Analytics Certificate" />
+             <div class="cert-content">
+                 <h3>Completion of complete WebDevlopement masterclass</h3>
+                 <p>2025</p>
+             </div>
+         </a>
+     </div>
+ </section>
 
-        </section>
+ <style>
+     .certifications-grid {
+         display: grid;
+         gap: 1.5rem;
+         grid-template-columns: 1fr;
+     }
+
+     @media (min-width: 600px) {
+         .certifications-grid {
+             grid-template-columns: 1fr 1fr;
+         }
+     }
+
+     .cert-card {
+         display: block;
+         background: #fff;
+         border-radius: 12px;
+         overflow: hidden;
+         text-decoration: none;
+         color: inherit;
+         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+         transition: transform 0.25s ease, box-shadow 0.25s ease;
+     }
+
+         .cert-card:hover {
+             transform: translateY(-4px);
+             box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+         }
+
+         .cert-card img {
+             width: 100%;
+             height: auto;
+             display: block;
+         }
+
+     .cert-content {
+         padding: 1rem 1.25rem;
+     }
+
+         .cert-content h3 {
+             margin: 0 0 0.5rem;
+             font-size: 1.15rem;
+             letter-spacing: 0.3px;
+         }
+
+         .cert-content p {
+             margin: 0;
+             font-size: 0.95rem;
+             color: #555;
+         }
+ </style>
+
+
+
+ </section>
     
         <!-- Mindset Section -->
         <section id="mindset" style="padding:3rem 1rem;">
